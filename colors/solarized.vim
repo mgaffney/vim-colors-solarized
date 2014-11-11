@@ -848,6 +848,14 @@ exe "hi! hsNiceOperator"     . s:fg_cyan   .s:bg_none   .s:fmt_none
 exe "hi! hsniceoperator"     . s:fg_cyan   .s:bg_none   .s:fmt_none
 
 "}}}
+" Tagbar highlighting "{{{
+" ---------------------------------------------------------------------
+
+exe "hi! TagbarAccessPublic"    .s:fg_cyan   .s:bg_none   .s:fmt_none
+exe "hi! TagbarAccessProtected" .s:fg_yellow .s:bg_none   .s:fmt_none
+exe "hi! TagbarAccessPrivate"   .s:fg_red    .s:bg_none   .s:fmt_none
+
+"}}}
 " pandoc markdown syntax highlighting "{{{
 " ---------------------------------------------------------------------
 
